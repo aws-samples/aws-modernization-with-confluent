@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/1.-introduction.html</loc>
+  </url>
+  
+  <url>
+    <loc>/2.-prerequisites.html</loc>
+  </url>
+  
+  <url>
+    <loc>/3.-signing-up-for-confluent-cloud.html</loc>
+  </url>
+  
+  <url>
+    <loc>/4.-creating-a-confluent-cloud-kafka-cluster.html</loc>
+  </url>
+  
+  <url>
+    <loc>/5.-creating-cluster-api-keys.html</loc>
+  </url>
+  
+  <url>
+    <loc>/6.-creating-confluent-cloud-schema-registry.html</loc>
+  </url>
+  
+  <url>
+    <loc>/7.-creating-a-ksqldb-application.html</loc>
+  </url>
+  
+  <url>
+    <loc>/8.-creating-aws-resources.html</loc>
+  </url>
+  
+  <url>
+    <loc>/9.-creating-a-kafka-topic.html</loc>
+  </url>
+  
+  <url>
+    <loc>/10.-configuring-mysql-source-connector.html</loc>
+  </url>
+  
+  <url>
+    <loc>/categories.html</loc>
+  </url>
+  
+  <url>
+    <loc>/tags.html</loc>
+  </url>
+  
+</urlset>

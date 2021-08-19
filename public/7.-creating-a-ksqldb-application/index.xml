@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creating a ksqlDB Application on Confluent Kafka Workshop</title>
+    <link>/7.-creating-a-ksqldb-application.html</link>
+    <description>Recent content in Creating a ksqlDB Application on Confluent Kafka Workshop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/7.-creating-a-ksqldb-application/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

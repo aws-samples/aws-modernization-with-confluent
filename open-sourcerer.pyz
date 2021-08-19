@@ -1,0 +1,158 @@
+
+
+
+<html><body>
+
+<p align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><b>System error</b></font></p>
+<table border="0" cellspacing="0" cellpadding="1">
+ <tr>
+  <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>error:</b>&nbsp;</font></td>
+  <td align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">Sorry, only members of the 'source-code' POSIX group have access to DevCentral. You can request these permissions at: https://code.amazon.com/request-source-permissions at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/Devcentral/CanAccess.pm line 22.<br></font></td>
+ </tr>
+ <tr>
+  <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>context:</b>&nbsp;</font></td>
+  <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">
+   <table border="0" cellpadding="0" cellspacing="0">
+
+    <tr>
+     <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>...</b>&nbsp;</font></td>
+     <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"></font></td>
+    </tr>
+
+    <tr>
+     <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>18:</b>&nbsp;</font></td>
+     <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">    my $tps = Amazon::Devcentral::TPS::getTPSClient();</font></td>
+    </tr>
+
+    <tr>
+     <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>19:</b>&nbsp;</font></td>
+     <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">    my $response = $tps-&gt;hasAccessToSourceCode({ username =&gt; $ENV{'REMOTE_USER'} });</font></td>
+    </tr>
+
+    <tr>
+     <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>20:</b>&nbsp;</font></td>
+     <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"></font></td>
+    </tr>
+
+    <tr>
+     <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>21:</b>&nbsp;</font></td>
+     <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">    if ($response-&gt;{'hasAccess'} != 1) {</font></td>
+    </tr>
+
+    <tr>
+     <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>22:</b>&nbsp;</font></td>
+     <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><font color=red>      die &quot;Sorry, only members of the 'source-code' POSIX group have access to DevCentral. You can request these permissions at: https://code.amazon.com/request-source-permissions&quot;;</font></font></td>
+    </tr>
+
+    <tr>
+     <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>23:</b>&nbsp;</font></td>
+     <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">    }</font></td>
+    </tr>
+
+    <tr>
+     <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>24:</b>&nbsp;</font></td>
+     <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">  } else {</font></td>
+    </tr>
+
+    <tr>
+     <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>25:</b>&nbsp;</font></td>
+     <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">    # Skip permission check for robot users. Was tempted to log the principal</font></td>
+    </tr>
+
+    <tr>
+     <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>26:</b>&nbsp;</font></td>
+     <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">    # here...</font></td>
+    </tr>
+
+    <tr>
+     <td nowrap="nowrap" align="left" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>...</b>&nbsp;</font></td>
+     <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"></font></td>
+    </tr>
+
+
+   </table>
+  </font></td>
+ </tr>
+ <tr>
+  <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2"><b>code stack:</b>&nbsp;</font></td>
+  <td align="left" valign="top" nowrap="nowrap"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">
+        /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/Devcentral/CanAccess.pm:22<br>
+        /apollo/env/devcentral/server-root/brazil/package-master/autohandler:8<br>
+  </font></td>
+ </tr>
+</table>
+
+<a href="#raw">raw error</a><br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<a name="raw"></a>
+
+<pre>Sorry, only members of the 'source-code' POSIX group have access to DevCentral. You can request these permissions at: https://code.amazon.com/request-source-permissions at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/Devcentral/CanAccess.pm line 22.
+
+
+Trace begun at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/HTML/Mason/Exceptions.pm line 129
+HTML::Mason::Exceptions::rethrow_exception('Sorry, only members of the \'source-code\' POSIX group have access to DevCentral. You can request these permissions at: https://code.amazon.com/request-source-permissions at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/Devcentral/CanAccess.pm line 22.^J') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/Devcentral/CanAccess.pm line 22
+Amazon::Devcentral::CanAccess::error_if_user_lacks_access at /apollo/env/devcentral/server-root/brazil/package-master/autohandler line 8
+HTML::Mason::Commands::__ANON__('id', 'PuzzleGlueCLI;1.0.94.0;AL2_x86_64;DEV.STD.PTHREAD;bin/open-sourcerer.pyz') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/HTML/Mason/Component.pm line 135
+HTML::Mason::Component::run('HTML::Mason::Component::FileBased=HASH(0x32cb030)', 'id', 'PuzzleGlueCLI;1.0.94.0;AL2_x86_64;DEV.STD.PTHREAD;bin/open-sourcerer.pyz') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/HTML/Mason/Request.pm line 1255
+eval {...} at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/HTML/Mason/Request.pm line 1249
+HTML::Mason::Request::comp(undef, undef, undef, 'id', 'PuzzleGlueCLI;1.0.94.0;AL2_x86_64;DEV.STD.PTHREAD;bin/open-sourcerer.pyz') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/HTML/Mason/Request.pm line 463
+eval {...} at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/HTML/Mason/Request.pm line 463
+eval {...} at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/HTML/Mason/Request.pm line 413
+HTML::Mason::Request::exec('HTML::Mason::Request=HASH(0x32c9540)') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/HTML/Mason/Interp.pm line 323
+HTML::Mason::Interp::exec(undef, undef, 'id', 'PuzzleGlueCLI;1.0.94.0;AL2_x86_64;DEV.STD.PTHREAD;bin/open-sourcerer.pyz') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/MasonView.pm line 50
+eval {...} at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/MasonView.pm line 42
+Amazon::ActionController::MasonView::render('Amazon::ActionController::MasonView=HASH(0x2f57df0)', 'helper', 'Amazon::ActionController::Helper=HASH(0x19f8dd0)', 'printer', 'CODE(0x2f57c90)', 'file', '/apollo/env/devcentral/server-root/brazil/package-master/error.mhtml', 'error', 'User &quot;jobigeor&quot; not allowed to access artifacts of package &quot;PuzzleGlueCLI&quot;! Go to the package\'s &lt;a href=&quot;https://code.amazon.com/packages/PuzzleGlueCLI/permissions&quot;&gt;permissions page&lt;/a&gt; to request access. at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/AC/BPB/Controller/Package.pm line 404.^J', 'documentRoot', '/apollo/env/devcentral/server-root') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ControllerBase.pm line 158
+Amazon::ActionController::ControllerBase::_renderFile('AC::BPB::Controller::Package=HASH(0x19f8c20)', 'HASH(0x2f57c60)') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ControllerBase.pm line 115
+eval {...} at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ControllerBase.pm line 102
+Amazon::ActionController::ControllerBase::render('AC::BPB::Controller::Package=HASH(0x19f8c20)', 'file', '/apollo/env/devcentral/server-root/brazil/package-master/error.mhtml', 'error', 'User &quot;jobigeor&quot; not allowed to access artifacts of package &quot;PuzzleGlueCLI&quot;! Go to the package\'s &lt;a href=&quot;https://code.amazon.com/packages/PuzzleGlueCLI/permissions&quot;&gt;permissions page&lt;/a&gt; to request access. at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/AC/BPB/Controller/Package.pm line 404.^J') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ControllerBase.pm line 193
+Amazon::ActionController::ControllerBase::_renderTemplate('AC::BPB::Controller::Package=HASH(0x19f8c20)', 'HASH(0x2f57a40)') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ControllerBase.pm line 110
+eval {...} at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ControllerBase.pm line 102
+Amazon::ActionController::ControllerBase::render('AC::BPB::Controller::Package=HASH(0x19f8c20)', 'template', 'error', 'error', 'User &quot;jobigeor&quot; not allowed to access artifacts of package &quot;PuzzleGlueCLI&quot;! Go to the package\'s &lt;a href=&quot;https://code.amazon.com/packages/PuzzleGlueCLI/permissions&quot;&gt;permissions page&lt;/a&gt; to request access. at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/AC/BPB/Controller/Package.pm line 404.^J') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/AC/BPB/Controller/Package.pm line 136
+AC::BPB::Controller::Package::doError('AC::BPB::Controller::Package=HASH(0x19f8c20)', 'User &quot;jobigeor&quot; not allowed to access artifacts of package &quot;PuzzleGlueCLI&quot;! Go to the package\'s &lt;a href=&quot;https://code.amazon.com/packages/PuzzleGlueCLI/permissions&quot;&gt;permissions page&lt;/a&gt; to request access. at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/AC/BPB/Controller/Package.pm line 404.^J') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/AC/BPB/Controller/Package.pm line 404
+AC::BPB::Controller::Package::ensureAccessAllowed('AC::BPB::Controller::Package=HASH(0x19f8c20)', 'PuzzleGlueCLI', 'jobigeor') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/AC/BPB/Controller/Package.pm line 96
+AC::BPB::Controller::Package::doView('AC::BPB::Controller::Package=HASH(0x19f8c20)') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ControllerBase.pm line 211
+eval {...} at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ControllerBase.pm line 209
+Amazon::ActionController::ControllerBase::_renderAction('AC::BPB::Controller::Package=HASH(0x19f8c20)', 'HASH(0x1992770)') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ControllerBase.pm line 105
+eval {...} at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ControllerBase.pm line 102
+Amazon::ActionController::ControllerBase::render('AC::BPB::Controller::Package=HASH(0x19f8c20)', 'action', 'view') called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ApplicationBase.pm line 76
+eval {...} at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/ApplicationBase.pm line 57
+Amazon::ActionController::ApplicationBase::dispatch('AC::BPB=HASH(0x1b193b0)', 'cgi', 'Amazon::ActionController::CGI=HASH(0x1cffca0)', 'response', undef) called at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/Dispatcher.pm line 104
+eval {...} at /apollo/_env/devcentral-swit1na.18787.752792518.1628703306009/perl/lib/perl5.8/Amazon/ActionController/Dispatcher.pm line 102
+Amazon::ActionController::Dispatcher::dispatch('Amazon::ActionController::Dispatcher=HASH(0x1661f90)', 'CGI::Fast=HASH(0x1661fa0)', undef) called at /apollo/env/devcentral/bin/action-controller.fcgi line 55
+eval {...} at /apollo/env/devcentral/bin/action-controller.fcgi line 38
+main::main at /apollo/env/devcentral/bin/action-controller.fcgi line 24
+</pre>
+
+</body></html>
