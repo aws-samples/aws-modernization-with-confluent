@@ -7,6 +7,8 @@ Making decisions in near-realtime is a challenge many of us are looking to solve
 
 Below is the typical use case flow looks like. As new credit applications comes through how the processing happens, decision is made with a logic and reporting is done:
 
+![Architecture](https://github.com/aws-samples/aws-modernization-with-confluent/blob/main/static/images/intro/GenericFlow.png)
+
 And for this workshop how the architecture looks like and AWS Services used:
 
 ![Architecture](https://github.com/aws-samples/aws-modernization-with-confluent/blob/main/static/images/intro/Arch.png)
