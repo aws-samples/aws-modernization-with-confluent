@@ -14,7 +14,7 @@ Making decisions in near-realtime is a challenge many of us are looking to solve
 
 
 
-Below is the typical use case flow looks like. As new credit applications comes through how the processing happens, decision is made with a logic and reporting is done:
+Below is how the typical use case flow looks like. As new credit applications comes through how the processing happens, decision is made with a logic and reporting is done:
 
 ![Architecture](/images/intro/GenericFlow.png)
 
