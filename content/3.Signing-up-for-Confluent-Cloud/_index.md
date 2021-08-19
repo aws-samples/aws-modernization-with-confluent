@@ -7,7 +7,7 @@ pre = "<b>3. </b>"
 
 ## Signing up for Confluent Cloud
 
-If you don’t already have an active Confluence Cloud account, navigate to AWS Marketplace and find [Apache Kafka on Confluent Cloud – Pay As You Go](https://aws.amazon.com/marketplace/pp/B08BVT2QDV?qid=1596552915515). Select the Continue to Subscribe button.
+If you don’t already have an active Confluent Cloud account, navigate to AWS Marketplace and find [Apache Kafka on Confluent Cloud – Pay As You Go](https://aws.amazon.com/marketplace/pp/B08BVT2QDV?qid=1596552915515). Select the Continue to Subscribe button.
 
 ![Subscribe](/images/signup/1.png)
 
