@@ -9,7 +9,7 @@ Below is the typical use case flow looks like. As new credit applications comes 
 
 ![Architecture](https://github.com/aws-samples/aws-modernization-with-confluent/blob/main/static/images/intro/GenericFlow.png)
 
-And for this workshop how the architecture looks like and AWS Services used:
+And for this workshop how the architecture looks like and AWS Services used along with Confluent Cloud:
 
 ![Architecture](https://github.com/aws-samples/aws-modernization-with-confluent/blob/main/static/images/intro/Arch.png)
 
