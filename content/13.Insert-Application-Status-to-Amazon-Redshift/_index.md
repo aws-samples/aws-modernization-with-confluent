@@ -13,11 +13,11 @@ Now lets create another connector, Navigate to connectors page and search for **
 And Click on the Redshift connector:
 ![Subscribe](/images/redshift/2.png)
 
-On the configuration page, enter the below details, click review and Launch:
+On the configuration page, enter the below details, for topics, select the ones starts with 'pksqlc', click review and Launch:
 
 | Key                    |  Value                                        |
 | ---------------------  | --------------------------------------------- |
-| Topics                 | *Pksqlc-xxxxxAPPROVED_APPLICATIONS*,*plsqlc-xxxxxREJECTED_APPLICATIONS* |
+| Topics                 | *pksqlc-xxxxxAPPROVED_APPLICATIONS*,*plsqlc-xxxxxREJECTED_APPLICATIONS* |
 | Name                   | RedshiftConnector                             |
 | Kafka API Key          | *Your Kafka API Key*                          |
 | Kafka API Secret       | *Your Kafka API Secret*                       |
