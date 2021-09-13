@@ -1,10 +1,10 @@
 ---
-title: "Confluent Kafka Horizontal Workshop - FSI Workshop"
+title: "Confluent Cloud Kafka Data in Motion Workshop"
 chapter: true
 weight: 1
 ---
 
-# Confluent Cloud AWS Workshop
+# Workshop - Building Data in Motion applications with Confluent on AWS
 
 ![Confluent Inc Logo](/images/intro/Confluent-logo.png)
 

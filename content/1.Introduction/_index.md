@@ -5,7 +5,7 @@ chapter = true
 pre = "<b>1. </b>"
 +++
 
-## Introduction to Confluent Horizontal Workshop - FSI
+## Introduction to Building Data in Motion applications with Confluent on AWS
 
 ![Confluent Inc Logo](/images/intro/Confluent-logo.png)
 ### Introduction
