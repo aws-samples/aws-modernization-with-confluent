@@ -10,7 +10,7 @@ weight: 1
 
 ### Welcome
 
-During this workshop you will learn how to use fully-managed Confluent Cloud on AWS to source historical data into Apache Kafka and how to use ksqlDB to process credit applications in real time using the sourced historical data combined with generated events. Once our streaming applications is working, we will sink both approved and not approved events into Amazon Redshift and finally we will visualize this data using Amazon QuickSight.
+During this workshop you will learn how to use fully-managed Confluent Cloud on AWS to source historical data into Apache Kafka and how to use ksqlDB to process credit applications in real time using the sourced historical data combined with realtime events. Once our streaming applications is working, we will sink both approved and not approved events into Amazon Redshift and finally we will visualize this data using Amazon QuickSight.
 
 ### Learning Objectives
 
