@@ -1,4 +1,4 @@
-# Introduction to Confluent Horizontal Workshop - FSI
+# Building Data in Motion applications with Confluent on AWS
 
 ![Confluent Inc Logo](https://github.com/aws-samples/aws-modernization-with-confluent/blob/main/static/images/intro/Confluent-logo.png)
 ## Introduction

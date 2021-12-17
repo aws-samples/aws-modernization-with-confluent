@@ -13,7 +13,7 @@ Once the Mysql connector is provisioned and running, navigate back to the ksqlDB
 
 Copy and paste below SQL command to the editor and “Run Query”
 
-*The ksqlDB that we have below will set up streams and tables using the topics we sources from the MySQL database and the topic the new credit applications will feed into.   To understand the difference between a stream, imagine for a moment a chess match currently in play.  A stream would be all of the moves on the chess table leading up to the current state of the match.  A table would show you just the current state.*
+*The ksqlDB that we have below will set up streams and tables using the topics we sourced from the MySQL database and the topic the new credit applications will feed into.   To understand the difference between a stream, imagine for a moment a chess match currently in play.  A stream would be all of the moves on the chess table leading up to the current state of the match.  A table would show you just the current state.*
 
 ```
 SET 'auto.offset.reset'='earliest';
