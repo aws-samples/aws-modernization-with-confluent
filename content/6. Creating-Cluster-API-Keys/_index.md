@@ -9,10 +9,10 @@ pre = "<b>5. </b>"
 
 Navigate to **API Keys** section and click on **Create key**, select the scope as Global and click Next.
 
-![Subscribe](../../static/images/createAPI/1.png)
+![Subscribe](/images/createAPI/1.png)
 
 On the next screen, you will see the keys generated for you. Ensure you save/copy the **Key** and **Secret** for use in the later sections. Provide a description, mark the **check box** and click **Save**
 
-![Subscribe](../../static/images/createAPI/2.png)
+![Subscribe](/images/createAPI/2.png)
 
 Once you have noted down the keys, proceed to next step.
