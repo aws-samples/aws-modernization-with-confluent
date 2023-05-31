@@ -9,8 +9,6 @@ pre = "<b>11. </b>"
 
 Once the Mysql connector is provisioned and running, navigate back to the ksqlDB and click on the application we created in the previous step.
 
-![Subscribe](/images/runKsql/1.png)
-
 Copy and paste below SQL command to the editor and “Run Query”
 
 *The ksqlDB that we have below will set up streams and tables using the topics we sourced from the MySQL database and the topic the new credit applications will feed into.   To understand the difference between a stream, imagine for a moment a chess match currently in play.  A stream would be all of the moves on the chess table leading up to the current state of the match.  A table would show you just the current state.*
@@ -98,7 +96,6 @@ INNER JOIN credit_utilization_tbl cu ON (a.customer_id = cu.customer_id)
 WHERE PCT_PAID_ON_TIME <= 90 AND ROUND(CAST(cu.total_balance AS DOUBLE) / CAST(cu.total_limit AS DOUBLE) * 100, 2) >= 30
 emit changes;
 ```
-![Subscribe](/images/runKsql/3.png)
 
 Navigate back to the Topics section, you will notice that a few new topics were created when those SQL statements were executed. 
 

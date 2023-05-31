@@ -9,7 +9,7 @@ pre = "<b>10. </b>"
 
 While on the Confluent cloud UI and click on **Connector** on the left panel, filter **MySQL** and click on **MySQL source** connector
 
-![Subscribe](/images/mysql/1.png)
+![Subscribe](../../static/images/mysql/1.png)
 
 On the Next page, provide below details: (while entering mysql table names, make sure you press enter after each value is inserted)
 
@@ -36,10 +36,8 @@ On the Next page, provide below details: (while entering mysql table names, make
 
 Then Click next. On the next page, review the details provided and click Launch. It would take few minutes for the connector to complete provisioning and start.
 
-![Subscribe](/images/mysql/2.png)
+![Subscribe](../../static/images/mysql/2.png)
 
 You will notice two topics created  **mysql_credit_payment_history** and **mysql_credit_utilization**
-
-![Subscribe](/images/mysql/3.png)
 
 Now, lets move to next section.
